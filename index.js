@@ -18,7 +18,9 @@ function destructivelyRemoveLastKitten() {
 
 function removeLastKitten() {
   var new_array = [];
-  for (var i = 0; i < kittens.length)
+  for (var i = 0; i < kittens.length; i++) {
+    
+  }
 }
 
 function removeFirstKitten() {
