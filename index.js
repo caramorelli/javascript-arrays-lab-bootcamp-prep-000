@@ -25,7 +25,11 @@ function removeLastKitten() {
 }
 
 function removeFirstKitten() {
-  
+  var new_array = [];
+  for (var i = 1; i < kittens.length; i++) {
+    new_array.push(kittens[i]);
+  }
+  return new_array;
 }
 
 
