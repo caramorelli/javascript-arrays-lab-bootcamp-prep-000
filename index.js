@@ -25,7 +25,7 @@ function appendKitten(name) {
   var new_array = [];
   new_array.push(name);
   for (var i = 0; i < (kittens.length - 1); i++) {
-    new_array.push(array[i]);
+    new_array.push(kittens[i]);
   }
   return new_array;
 }
