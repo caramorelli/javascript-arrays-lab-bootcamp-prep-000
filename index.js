@@ -22,6 +22,10 @@ function destructivelyRemoveFirstKitten(array) {
 }
 
 function appendKitten(name) {
+  
+}
+
+function prependKitten(name) {
   var new_array = [];
   new_array.push(name);
   for (var i = 0; i < kittens.length; i++) {
