@@ -22,7 +22,12 @@ function destructivelyRemoveFirstKitten(array) {
 }
 
 function appendKitten(name) {
-  
+  var new_array = [];
+  for (var i = 0; i < kittens.length; i++) {
+    new_array.push(kittens[i]);
+  }
+  new_array.push(name);
+  return new_array;
 }
 
 function prependKitten(name) {
