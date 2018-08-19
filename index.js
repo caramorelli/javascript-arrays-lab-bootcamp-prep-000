@@ -23,6 +23,7 @@ function destructivelyRemoveFirstKitten(array) {
 
 function appendKitten(name) {
   var new_array = [];
+  new_array.push(name);
   for (var i = 0; i < (array.length - 1); i++) {
     new_array.push(array[i]);
   }
