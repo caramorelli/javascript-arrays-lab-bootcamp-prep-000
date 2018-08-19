@@ -6,6 +6,10 @@ function destructivelyAppendKitten(name) {
   return kittens;
 }
 
+function destructivelyRemoveLastKitten() {
+  
+}
+
 
 //   describe('destructivelyAppendKitten(name)', function() {
 //     it('appends a kitten to the end of the kittens array', function() {
