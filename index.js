@@ -17,7 +17,7 @@ function destructivelyRemoveLastKitten() {
 }
 
 function removeLastKitten() {
-  
+  var new_array
 }
 
 function removeFirstKitten() {
