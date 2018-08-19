@@ -16,6 +16,10 @@ function destructivelyRemoveLastKitten(array) {
   return array;
 }
 
+function destructivelyRemoveFirstKitten() {
+  
+}
+
 function removeLastKitten(array) {
   var new_array = [];
   for (var i = 0; i < (array.length - 1); i++) {
@@ -34,21 +38,6 @@ function removeFirstKitten() {
 
 
 
-//   describe('destructivelyPrependKitten(name)', function() {
-//     it('prepends a kitten to the beginning of the kittens array', function() {
-//       destructivelyPrependKitten("Bob")
-
-//       expect(window.kittens).toEqual(["Bob", "Milo", "Otis", "Garfield"])
-//     })
-//   })
-
-//   describe('destructivelyRemoveLastKitten()', function() {
-//     it('removes the last kitten from the kittens array', function() {
-//       destructivelyRemoveLastKitten()
-
-//       expect(window.kittens).toEqual(["Milo", "Otis"])
-//     })
-//   })
 
 //   describe('destructivelyRemoveFirstKitten()', function() {
 //     it('removes the First kitten from the kittens array', function() {
